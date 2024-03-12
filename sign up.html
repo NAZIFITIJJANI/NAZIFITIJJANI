@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            display: block;
+            width: 100%;
+            margin-bottom: 30px;
+            padding: 5px;
+            outline: none;
+        }
+
+        .login-form{
+            width: 250px;
+            background-color: green;
+            padding: 40px;
+            border-radius: 20px;
+            margin-top: 150px;
+        }
+
+        button{
+            padding: 10px 20px;
+            background-color: white;
+            color: green;
+
+
+        }
+
+        h1{
+            text-align: center;
+            color: white;
+        }
+
+        label{
+            color: white;
+            font-weight: bold;
+            
+        }
+
+        body{
+            /* width: 400px;
+            margin: 0 auto; */
+            animation-name: move;
+            animation-duration: 1s;
+        }
+
+        button:hover{
+            transform: translateX(-10px)
+        }
+
+        @keyframes move{
+            from{transform:translateY(-100px)}
+            to{transform: translateY(0px)}
+        }
+
+        nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 5px 3px gray;
+    background-color: green;
+    
+} 
+
+ul{
+    display: flex;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+    text-decoration: none;
+}
+       
+button{
+    background-color: white;
+    color: black;
+    width: 20px;
+    height: 40px;
+    padding: 10px 50px ; 
+    border: white;
+    
+}
+
+.main-form{
+ width: 300px;
+            margin: 0 auto;
+}
+    
+.link{
+    padding: 10px 20px;
+}
+    
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>
+            <a href="mehub.html">logo</a>
+        </h2>
+        <ul>
+            <li> <a href="about.html">about</a></li>
+            <li><a href="profile.html">profile</a></li>
+            <li> <a href="curriculum.html">curriculum</a></li>
+            <li> <a href="gallery.html">gallery</a></li>
+        </ul>
+        <div>
+            <!-- <a href="sign up.html"><button>login</button></a> -->
+        <a href="register.html" class="link"><button>register</button></a>
+        </div>
+    </nav>
+   <div class="main-form">
+    <div class="login-form">
+        <h1>login</h1>
+        <form action="">
+            <label for="">username</label>
+            <input type="text">
+            <label for="">password</label>
+            <input type="password">
+        </form>
+        <button>login</button>
+    </div>
+   </div>
+</body>
+</html>

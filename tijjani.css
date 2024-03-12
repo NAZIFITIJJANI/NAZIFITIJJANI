@@ -1,0 +1,58 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+}
+
+#log{
+    color: blue;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#sig{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+span{
+    color: green;
+}
+
+.guru{
+    display: flex;
+    margin: 60px;
+}
+
+.bdy{
+    
+    
+}
+
+
+#man{
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+body{
+    /* background-image: url(nature.jpg);
+    background-repeat: no-repeat;
+     */
+}
